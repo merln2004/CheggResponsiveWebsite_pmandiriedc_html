@@ -1,0 +1,227 @@
+:root {
+    --oren: #e0700e;
+    --orenchegg: #e16811;
+    --orentua: #ab4802;
+  
+}
+
+
+.btn-custom {
+    border: 2px solid black; 
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+
+.btn-custom:hover {
+    border-color: black; 
+    background-color: black;
+    color: white;
+}
+
+
+section {
+    padding: 50px 0 100px;
+}
+
+.bg-apaya {
+    background: var(--oren) !important;
+}
+
+.bg-apayargelap{
+    background: var(--orentua) !important;
+}
+ 
+
+.text-apaya{
+    color:var(--orentua);
+}
+
+.border-hihi {
+    border: 2px solid var(--blue) !important;
+}
+ 
+a.border-hihi:hover {
+    border: rgb(230, 130, 29) !important;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color:var(--orentua) !important;
+    font-weight: bold;
+    border-bottom: 2px solid var(--orentua); 
+}
+
+#hero-section {
+    background: url('https://learningtoday.net/wp-content/uploads/2023/07/chegg-free-trial.webp') no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    padding: 0;
+}
+.nilaiproduk {
+    height: 200px; 
+    object-fit: cover; 
+}
+#hero-section:after {
+    content:'';
+    display:block ;
+    height: 100%;
+    width: 100%;
+    background-color:#f179248d;
+    background-size:cover;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:0;
+}
+
+#hero-section .row {
+    position: absolute;
+    z-index: 1;
+}
+
+#hero-section h1 {
+    margin-top: 0; 
+}
+#buy .hihi {
+    column-gap: 2rem ;
+    row-gap: 2rem;
+    
+}
+
+#contact-section h1 {
+    justify-content: center;
+}
+#contact-section {
+    background: url('https://learningtoday.net/wp-content/uploads/2023/07/chegg-free-trial.webp') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    width:100%;
+    height:100%;
+}
+
+#contact-section .container {
+    background-color: var(--orenchegg); 
+    padding: 50px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; 
+    width: 100%;
+    
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;
+}
+nilaiproduk .row, #awards{
+    row-gap: 3rem;
+}
+
+#awards img{
+    height: 150px;
+    
+}
+@media(min-width: 992px){
+   #nilaiproduk img{
+        height:300px;
+        width:100%;
+
+   } 
+
+   #nilaiproduk .detail{
+        width:100%;
+   }
+}
+@media (max-width: 768px){
+    #buy link{
+        row-gap: 1rem;
+    }
+}
+#infobw a {
+    color: white;
+}
+#infobw a:hover, nav .link a:hover {
+    color:var(--orenchegg);
+}
+#infobw .socmed-icon{
+    height: 40px;
+    width: 40px;
+
+}
+#infobw{
+    background-color: #c6680a;
+
+}
+.footer-btn {
+    margin-bottom: 10px;
+}
+.footer-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+}
+.footer-text {
+    font-size: 14px;
+    opacity: 0.8;
+}
+.follow-us {
+    text-align: left; 
+    padding: 20px 0;
+    background-color: #e16811; 
+    color: #fff; 
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center;
+}
+.follow-us img {
+    width: 40px; 
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+.follow-us .social-icons {
+    margin-left: auto; 
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.footer-partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-partner img {
+    max-width: 100px; 
+}
+#messanger{
+    bottom:100px;
+    right:30px;
+    z-index:99px;
+}
+#bactotop{
+    z-index: 99;
+    bottom: 50px;
+    right:30px;
+}
+
+.Hihiterakhir {
+    margin-left:30px ;
+}
+

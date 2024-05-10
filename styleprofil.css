@@ -1,0 +1,128 @@
+:root {
+  
+    --oren: #e0700e;
+    --orenchegg: #e16811;
+    --orentua: #ab4802;
+   
+}
+#hero-section {
+    background: url('https://learningtoday.net/wp-content/uploads/2023/07/chegg-free-trial.webp') no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    padding: 0;
+   
+
+}
+#hero-section .container {
+   background: rgba(231, 109, 16, 0.815);}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--orenchegg);
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.judul {
+    margin-bottom: 10px; 
+}
+.nav-links li a {
+    text-decoration: none;
+    color: var(--oren);
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: var(--orentua);
+}
+
+.hero {
+    background-image: url('hero_bg.jpg');
+    background-size: cover;
+    color: var(--orentua);
+    padding: 100px 0;
+    text-align: left;
+}
+.navbar-nav a {
+    text-decoration: none;
+    color:var(--orentua) !important;
+    font-weight: bold;
+    border-bottom: 2px solid var(--orentua); 
+
+}
+.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.about h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: var(--orenchegg);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about p {
+    text-align: left;
+    font-size: 1.1rem;
+    color: white;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.about ul {
+    margin-top: 30px;
+}
+
+.about ul li {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--orenchegg);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}

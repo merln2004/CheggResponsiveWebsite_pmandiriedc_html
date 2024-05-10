@@ -1,0 +1,96 @@
+:root {
+    --oren: #e0700e;
+    --orenchegg: #e16811;
+    --orentua: #ab4802;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    justify-content: left;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    margin-right: 70px;
+    align-items: center;
+    height: 100vh;
+}
+
+#Loginhihi .imaghihi {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    color: var(--orentua);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 95%;
+}
+.username{
+   background-color: white;
+}
+label {
+    display: block;
+    font-weight: bold;
+    color: var(--orentua);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white !important; 
+}
+
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--orenchegg);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--orentua);
+}
